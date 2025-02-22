@@ -1,5 +1,3 @@
-import Image from "next/image"
-import { Card } from "../ui/card"
 import { Button } from "@/components/ui/button"
 
 
@@ -27,9 +25,6 @@ const Introduce = () => {
 			<p className="text-l text-gray-600">
 			Web Developer Enthusiast dan Currently Learning Odoo Framework
 			</p>
-			<a href="#project">
-			<Button className="bg-gray-600 hover:bg-gray-800 mt-10">PROJECT</Button>
-			</a>
 		</div>
 		</div>
 		</>

@@ -1,4 +1,3 @@
-import { Badge } from '../ui/badge'
 import { Card } from '../ui/card'
 
 const AboutAndExperience = () => {

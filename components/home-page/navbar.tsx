@@ -1,16 +1,9 @@
 'use client'
 
-import Link from 'next/link'
-import { useState } from 'react'
-import { useEffect } from 'react'
-import { Button, buttonVariants } from "@/components/ui/button"
 import {
   NavigationMenu,
-  NavigationMenuContent,
   NavigationMenuItem,
-  NavigationMenuLink,
   NavigationMenuList,
-  NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu"
 import { Card } from "@/components/ui/card"
 
