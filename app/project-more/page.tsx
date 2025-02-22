@@ -3,7 +3,7 @@ import { Card } from '../../components/ui/card'
 import Image from "next/image"
 import { Badge } from '../../components/ui/badge'
 
-export const ProjectMore = () => {
+const ProjectMore = () => {
     const projects = [
         {
             title: "SINUJI: Sistem Ngaji Daring Aswaja",
