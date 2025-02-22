@@ -1,5 +1,6 @@
 'use client'
 
+import Link from "next/link"
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -65,8 +66,8 @@ export default function Header() {
                     {route.label}
                   </Link>
                 ))} */}
-                <link href="/" className='font-bold text-l px-3'>Home</link>
-                <link href="/project-more" className='font-bold text-l px-3'>Projects</link>
+                <Link href="/" className='font-bold text-l px-3'>Home</Link>
+                <Link href="/project-more" className='font-bold text-l px-3'>Projects</Link>
               </nav>
             </Card>
           </NavigationMenuItem>
