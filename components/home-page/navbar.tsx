@@ -7,10 +7,10 @@ import {
 } from "@/components/ui/navigation-menu"
 import { Card } from "@/components/ui/card"
 
-interface RouteProps {
-  href: string
-  label: string
-}
+// interface RouteProps {
+//   href: string
+//   label: string
+// }
 
 // const routeList: RouteProps[] = [
 //   { href: '#index', label: 'Me' },
@@ -65,8 +65,8 @@ export default function Header() {
                     {route.label}
                   </Link>
                 ))} */}
-                <a href="/" className='font-bold text-l px-3'>Home</a>
-                <a href="/project-more" className='font-bold text-l px-3'>Projects</a>
+                <link href="/" className='font-bold text-l px-3'>Home</link>
+                <link href="/project-more" className='font-bold text-l px-3'>Projects</link>
               </nav>
             </Card>
           </NavigationMenuItem>

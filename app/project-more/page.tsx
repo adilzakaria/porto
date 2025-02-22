@@ -1,4 +1,3 @@
-import React, { use } from 'react'
 import { Card } from '../../components/ui/card'
 import Image from "next/image"
 import { Badge } from '../../components/ui/badge'
