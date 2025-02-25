@@ -1,5 +1,3 @@
-"use client"
-
 import "./globals.css";
 import Header from "@/components/home-page/navbar";
 import SocialNavbar from "@/components/home-page/social-navbar";

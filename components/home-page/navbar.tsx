@@ -66,7 +66,7 @@ export default function Header() {
                     {route.label}
                   </Link>
                 ))} */}
-                <Link href="/" className='font-bold text-l px-3'>Home</Link>
+                <Link href="/" className='font-bold text-l px-3'>Experiences</Link>
                 <Link href="/project-more" className='font-bold text-l px-3'>Projects</Link>
               </nav>
             </Card>
