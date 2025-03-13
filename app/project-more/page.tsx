@@ -33,6 +33,13 @@ const ProjectMore = () => {
             link: "https://parkirin.sinuji.com/",
             skills: ["Next.JS", "Typescript", "PostgreSQL", "Git"],
         },
+        {
+            title: "Re:Thread",
+            description: "Parkirin is a web-based parking management system that allows users to book parking spaces online. It provides real-time availability updates and allows users to pay for parking using various payment methods.",
+            image: "/re.png",
+            link: "https://rethread-infoloker.vercel.app/",
+            skills: ["Next.JS", "Typescript", "Git"],
+        },
     ]    
         return (
         <>
@@ -41,7 +48,7 @@ const ProjectMore = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 {projects.map((project, index) => (
                 <Card key={index} className="p-6 flex flex-col gap-4">
-                    <div className="relative w-full h-80">
+                    <div className="relative w-full h-50">
                     <Image
                         src={project.image || '/default-image.png'}
                         alt={project.title}
@@ -55,13 +62,13 @@ const ProjectMore = () => {
                     <div className='flex flex-col gap-2'>
                     <h3 className="text-lg font-bold">{project.title}</h3>
                     <p className="text-gray-600">{project.description}</p>
+                    </div>
                     <div className="flex flex-wrap gap-2">
                         {project.skills && project.skills.map((skill, index) => (
                         <Badge key={index} variant="secondary">
                             {skill}
                         </Badge>
                         ))}
-                    </div>
                     <a
                         href={project.link}
                         target="_blank"
