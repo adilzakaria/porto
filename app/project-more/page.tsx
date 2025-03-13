@@ -35,8 +35,8 @@ const ProjectMore = () => {
         },
         {
             title: "Re:Thread",
-            description: "Parkirin is a web-based parking management system that allows users to book parking spaces online. It provides real-time availability updates and allows users to pay for parking using various payment methods.",
-            image: "/re.png",
+            description: "Re:Thread is a web-based for thrifting and selling pre-loved clothes. It provides a platform for users to buy and sell second-hand clothing items, reducing waste and promoting sustainable fashion practices.",
+            image: "/re:thread.png",
             link: "https://rethread-infoloker.vercel.app/",
             skills: ["Next.JS", "Typescript", "Git"],
         },
