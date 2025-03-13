@@ -36,7 +36,7 @@ const ProjectMore = () => {
         {
             title: "Re:Thread",
             description: "Re:Thread is a web-based for thrifting and selling pre-loved clothes. It provides a platform for users to buy and sell second-hand clothing items, reducing waste and promoting sustainable fashion practices.",
-            image: "/re:thread.png",
+            image: "/re.png",
             link: "https://rethread-infoloker.vercel.app/",
             skills: ["Next.JS", "Typescript", "Git"],
         },
