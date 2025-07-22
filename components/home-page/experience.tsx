@@ -26,7 +26,7 @@ const AboutAndExperience = () => {
           {
             title: "Student Intern",
             company: "PT. Cendana Teknika Utama",
-            period: "Jan 2024 - Present",
+            period: "Jan 2025 - May 2025",
             description:
               "Currently undergoing training in Odoo framework. Engaged in structured courses to build foundational knowledge in preparation for upcoming development projects.",
           },
