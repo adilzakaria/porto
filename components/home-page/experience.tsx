@@ -3,32 +3,32 @@ import { Card } from '../ui/card'
 const AboutAndExperience = () => {
     const experiences = [
         {
-            title: "Development of Sinau Ngaji Daring",
-            company: "PUI-PT DLI",
+            title: "PUI-PT DLI - Development of Sinau Ngaji Daring",
+            company: "Development of Sinau Ngaji Daring",
             period: "Jun 2024 - Nov 2024",
             description:
               "Independently developed Sinau Ngaji Daring, an online Islamic learning platform. Built using Laravel 10 and MySQL, the platform provides a seamless and user-friendly experience, ensuring efficient content delivery and accessibility for users.",
           },
           {
-            title: "Development of PastiJadi Accounting-App",
+            title: "PastiJadi Digital Solution - Development of PastiJadi Accounting-App",
             company: "PastiJadi Digital Solution",
             period: "Aug 2024 - Nov 2024",
             description:
               "Collaborated with a team to develop an accounting web application using Laravel. My primary responsibilities included designing the entire UI/UX interface and building an analytics dashboard to enhance data visualization and user insights.",
           },
           {
-            title: "Documentation of Teh Kota",
+            title: "PastiJadi Digital Solution - Documentation of Teh Kota",
             company: "PastiJadi Digital Solution",
             period: "Aug 2024 - Oct 2024",
             description:
               "Created user manuals and tutorial videos for both Mitra and Internal Teh Kota web applications. Worked alongside a QA tester responsible for identifying and reporting bugs, while I focused on developing clear and concise documentation to improve user experience and onboarding.",
           },
           {
-            title: "Student Intern",
+            title: "PT. Cendana Teknika Utama - Student Intern",
             company: "PT. Cendana Teknika Utama",
             period: "Jan 2025 - May 2025",
             description:
-              "Currently undergoing training in Odoo framework. Engaged in structured courses to build foundational knowledge in preparation for upcoming development projects.",
+              "Training Odoo framework. Engaged in structured courses to build foundational knowledge in preparation for upcoming development projects.",
           },
     ]
         
@@ -71,7 +71,7 @@ const AboutAndExperience = () => {
                 {experiences.map((exp, index) => (
                 <div key={index} className="border-b border-gray-200 pb-4 last:border-b-0">
                     <h3 className="text-l md:text-xl">{exp.title}</h3>
-                    <p className="text-s md:text-m text-gray-600">{exp.company}</p>
+                    {/* <p className="text-s md:text-m text-gray-600">{exp.company}</p> */}
                     <p className="text-s md:text-m text-gray-500 mb-2">{exp.period}</p>
                     <p className="text-s md:text-m text-gray-600">{exp.description}</p>
                 </div>

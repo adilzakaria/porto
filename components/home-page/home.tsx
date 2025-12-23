@@ -13,7 +13,7 @@ const Introduce = () => {
 			Universitas Negeri Malang - Informatics Engineering ' 22
 			</p>
 			<p className="text-l text-gray-600">
-			Web Developer Enthusiast dan Currently Learning Odoo Framework
+			Web Developer Enthusiast dan Currently Learning Docker
 			</p>
 		</div>
 		</div>
