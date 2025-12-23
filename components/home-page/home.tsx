@@ -10,7 +10,7 @@ const Introduce = () => {
 			HEY, I'M ADIL ZAKARIA
 			</h1>
 			<p className="text-l font-semibold text-gray-600 mb-3">
-			University State of Malang - Informatics Engineering ' 22
+			Universitas Negeri Malang - Informatics Engineering ' 22
 			</p>
 			<p className="text-l text-gray-600">
 			Web Developer Enthusiast dan Currently Learning Odoo Framework
